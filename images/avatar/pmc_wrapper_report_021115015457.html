@@ -1,0 +1,979 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<body lang=EN-US>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;width:100%'>
+ <tr>
+  <td valign=top style='border-top:solid windowtext 2.25pt;
+  border-left:none;border-bottom:solid windowtext 2.25pt;border-right:none;
+  background:white;padding:0in 5.4pt 0in 5.4pt'>
+ <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align: 
+  center'><b><span style='font-size:20.0pt;font-family:Arial,sans-serif; 
+  color:black'>PMC Wrapper Tool Report for Transaction: sshli_rfi_backport_20511001_11.1.9.2.0<o:p></o:p></span></b></p> 
+ <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align: 
+  center'><b><span style='font-size:12.0pt;font-family:Arial,sans-serif; 
+  color:black'>[Ver 2.0]<o:p></o:p></span></b></p> 
+ <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align: 
+  center'><b><span style='font-size:10.0pt;font-family:Arial,sans-serif; 
+  color:black'>[Wed Feb 11 18:18:54 PST 2015]<o:p></o:p></span></b></p> 
+  <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align:
+  center'><b><span style='font-size:16.0pt;mso-bidi-font-size:20.0pt;
+	font-family:Arial,sans-serif;color:black'>Overall PMC Wrapper Tool Run Status :-
+	<span style='background:orange;mso-highlight:orange'>WARNING</span></b></p>
+    <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align: 
+    center'><b><span style='font-size:8.0pt;mso-bidi-font-size:20.0pt;font-family: 
+    Arial,sans-serif;color:red'>*PMC Wrapper will try validating transaction 
+    on various validation rules. But Developers are always encouraged to make 
+    their transaction as clean as possible with all possible checks available / 
+    possible in Fusion code standards.<o:p></o:p></span></b></p> 
+    <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align: 
+    center'><b><span style='font-size:8.0pt;mso-bidi-font-size:20.0pt;font-family: 
+    Arial,sans-serif;color:red'>Refer this page for HCM validations needed on 
+    various series -</span></b><span style='color:red'><a 
+    href="https://confluence.oraclecorp.com/confluence/display/HCMexternal/Merge+Approval+-+Checks"><span 
+    style='color:red'>Merge Approval - Checks</span></a></span><span 
+    style='color:white;mso-themecolor:background1'><o:p></o:p></span></p> 
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+ 
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;width:100%'>
+ <tr>
+  <td  valign=top style='border:solid black 1.0pt;
+  border-bottom:none;background:black;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:white'>Transaction Details</span></b></p>
+  </td>
+ </tr>
+  <td valign=top style='border:solid black 1.0pt;
+  background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><tt><b><span style='font-size:10.0pt;
+  font-family:"Arial","sans-serif";color:#000000'>&nbsp;</span></b></tt></p>
+  <a onclick ="javascript:ShowHide('HiddenDiv4')" href="javascript:;" ><center>Show/Hide</center></a>
+  <div class="mid" id="HiddenDiv4" style="DISPLAY: none;color: #000000; font: Helvetica 12pt;border: 1px solid black;" >
+</br>
+ADE Transaction Information:</br>
+TRANSACTION: sshli_rfi_backport_20511001_11.1.9.2.0</br>
+TRANS_LOCATION: /net/slcnas532.us.oracle.com/export/ade_slc_txn/sshli/sshli_rfi_backport_20511001_11.1.9.2.0</br>
+BASE_LABEL: FUSIONAPPS_11.1.9.2.0HCM_LINUX.X64_150210.1430.S</br>
+OWNING VIEW: sshli_r9rr92</br>
+HOST NAME: slc08abv.us.oracle.com</br>
+DESCRIBING VIEW: sshli_r9rr92</br>
+TRANS_STATE: OPEN</br>
+</br>
+ALL AFFECTED FILES:</br>
+1.	fusionapps/hcm/cmp/db/plsql/cmp_cwb_audit_pkg.pkb</br>
+2.	fusionapps/hcm/components/hcmCompensation/compensation/workbench/uiModel/src/oracle/apps/hcm/compensation/workbench/uiModel/commonWorkbench/applicationModule/CwbAMImpl.java</br>
+</br>
+</br>
+-------------------------------------------------------------------------------</br>
+Repository Transaction Information:</br>
+label_name   :  		FUSIONAPPS_11.1.9.2.0HCM_LINUX.X64_150210.1430.S</br>
+trans_irid   :  		0ECDC7290AC50FB0E05331F4E50ACA28</br>
+primary_branch_irid   :  		06FD512B3B038B2FE05330F4E50A3B8F</br>
+merged_to_branches   :  		st_fusionapps_pt-devhcm</br>
+date_created   :  		February  11, 2015, 01:39:21 A.M.</br>
+trans_state   :  		OPEN</br>
+comments   :</br>
+trans_name   :  		sshli_rfi_backport_20511001_11.1.9.2.0</br>
+trans_owner   :  		105703</br>
+controlling   :  		0ECCD733F9DE4064E05333F4E50AE9AC</br>
+num_files   :  		2</br>
+label_irid   :  		0EC4B4D818A15074E05336F4E50A3919</br>
+-------------------------------------------------------------------------------</br>
+TRANSACTION PROPERTIES:</br>
+BACKPORT_BUG_NUM            : 20517102</br>
+BASE_TXN_NAME               : sshli_bug-20511001</br>
+BUG_NUM                     : 20511001</br>
+PATCHSET_VER                : 11.1.9.2.0</br>
+README_BUGFIX_FUNCT_DESC    : withdraw notification does not send to alternate manager, but send to original manager. Resolution: check alternative manager before send notification</br>
+</br>
+ORACLE BACKEND BRANCHED ELEMENTS:</br>
+================================================================================</br>
+fusionapps/hcm/cmp/db/plsql/cmp_cwb_audit_pkg.pkb@@/main/st_fusionapps_11.1.1.5.1/st_fusionapps_11.1.9.2.0hcm/sshli_rfi_backport_20511001_11.1.9.2.0/1</br>
+fusionapps/hcm/components/hcmCompensation/compensation/workbench/uiModel/src/oracle/apps/hcm/compensation/workbench/uiModel/commonWorkbench/applicationModule/CwbAMImpl.java@@/main/st_fusionapps_11.1.1.5.1/st_fusionapps_11.1.9.2.0hcm/sshli_rfi_backport_20511001_11.1.9.2.0/1</br>
+================================================================================</br>
+</br>
+  </div>
+  <script language="JavaScript">function ShowHide(divId){if(document.getElementById(divId).style.display == 'none'){document.getElementById(divId).style.display='block';}else{document.getElementById(divId).style.display = 'none';}}</script>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+ 
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;width:100%'>
+ <tr>
+  <td  valign=top style='border:solid black 1.0pt;
+  border-bottom:none;background:black;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:white'>Transaction Properties</span></b></p>
+  </td>
+ </tr>
+  <td valign=top style='border:solid black 1.0pt;
+  background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><tt><b><span style='font-size:10.0pt;
+  font-family:"Arial","sans-serif";color:#000000'>&nbsp;</span></b></tt></p>
+  <a onclick ="javascript:ShowHide('HiddenDiv9')" href="javascript:;" ><center>Show/Hide</center></a>
+  <div class="mid" id="HiddenDiv9" style="DISPLAY: none;color: #000000; font: Helvetica 12pt;border: 1px solid black;" >
+  </div>
+  <script language="JavaScript">function ShowHide(divId){if(document.getElementById(divId).style.display == 'none'){document.getElementById(divId).style.display='block';}else{document.getElementById(divId).style.display = 'none';}}</script>
+  </td>
+ </tr>
+</table>
+<p class=MsoNormal><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+ 
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;width:100%'>
+ <tr>
+  <td valign=top style='border:solid black 1.0pt;
+  background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><tt><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:black;background:orange'>PMC Run Summary: ( *** Overall
+  Validation Status:&nbsp;&nbsp;Warning *** )</span></b></tt></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-family:"Arial","sans-serif";color: #000000'>&nbsp;</span></b></p>
+  <a onclick ="javascript:ShowHide('HiddenDiv')" href="javascript:;" ><center>Show/Hide</center></a>
+  <div class="mid" id="HiddenDiv" style="DISPLAY: none;color: #000000; font: Helvetica 12pt;border: 1px solid black;">
+</br>
+Fusion Pre-merge Validation Tool</br>
+--------------------------------</br>
+</br>
+Read more about the tool at <a href="https://kix.oraclecorp.com/KIX/display.php?labelId=1995&articleId=276161">https://kix.oraclecorp.com/KIX/display.php?labelId=1995&articleId=276161<a></br>
+Issues, ERs, Suggestions? Please follow the FAQ link at the bottom of the above KIX page.</br>
+</br>
+</br>
+Fusion pre-merge validations of sshli_rfi_backport_20511001_11.1.9.2.0 start at 11-Feb-15 01:57</br>
+Command - /ade/sshli_r9rr92/fatools/opensource/jauditFixScripts/FinPreMerge/bin/fin_premerge.ksh -DrunJUnits=1 -d fusion/fusion@slcak356.us.oracle.com:1535/ems3214 -DPerformPseudoTranslation=1</br>
+ORACLE_HOME is /ade/sshli_r9rr92/oracle</br>
+Reading email id from /home/sshli/.Premerge.cfg</br>
+<a href="https://bug.oraclecorp.com/pls/bug/webbug_print.show?c_rptno=20517102#Bottomofthepage20517102">https://bug.oraclecorp.com/pls/bug/webbug_print.show?c_rptno=20517102#Bottomofthepage20517102<a></br>
+Product family is identified as hcm.</br>
+Checking for view-private files...</br>
+Checking fusionapps/hcm/cmp/db</br>
+Checking fusionapps/hcm/components/hcmCompensation</br>
+There are no view-private files under the checked LBAs.</br>
+Product view on FUSIONAPPS_11.1.9.2.0HCM_LINUX.X64_150210.1430.S</br>
+Dependent FA label - FATOOLS_11.1.9.2.0_LINUX_150210.1028</br>
+Bug Connection is: bugap_adx.us.oracle.com</br>
+Bug 20517102 belongs to Fusion family and assigned to sshli.</br>
+*Warning - This transaction is not saved. Please exit, save the transaction and run the tool again.</br>
+Ensuring that BUILD_HOME has the latest patches..</br>
+FMWTOOLS_LABEL = [FMWTOOLS_11.1.1.7.3_GENERIC_140403.1140]</br>
+</br>
+Notice: A OneOff P4FA patch from FMW has been detected for this label.</br>
+The JDev IDE is considered frozen and cannot be patched, therefore the</br>
+OneOff P4FA patches are only applied to your $MW_HOME_STANDALONE.</br>
+Testing that requires OneOff P4FA patches should be done using the Standalone WLS.</br>
+</br>
+Applying PATCHES4FA_11.1.9.2.0_PLATFORMS_141002.1408.S to /ade/sshli_r9rr92/fmwtools/BUILD_HOME ....</br>
+</br>
+**********************************************************************</br>
+There is a new version of the WebLogic configuration properties file</br>
+Please replace /home/sshli/fusion_apps_wls.properties (130709.1730)</br>
+with new version /ade/sshli_r9rr92/fatools/tools/wlsconfig/fadev/ps6rc3/fusion_apps_wls.properties (130812.1036)</br>
+and make any required changes such as database connection details</br>
+See Fusion Applications Developer's Guide for more details</br>
+**********************************************************************</br>
+</br>
+</br>
+BreakOnError is unset.</br>
+Success - No central files found in the transaction.</br>
+Success - Strings check.</br>
+Success - GSCC.</br>
+Skipped - BIP files header check.</br>
+Success - BIP files captions check.</br>
+Skipped - UTPLSQL execution.</br>
+Skipped - BIP files folder check.</br>
+Success - FRE Validations (only label checks performed)</br>
+Skipped - Pseudo Translation testing. Please see /ade/sshli_r9rr92/fusionapps/premerge/bugOutputForPseudoTranslation.txt</br>
+Success - JAudit.</br>
+Success - JUnits.</br>
+Success - Incremental build.</br>
+Success - Seed data patching</br>
+Skipped - Full build not necessary.</br>
+Skipped - Build cycles check.</br>
+Exit Status - 1024</br>
+Fusion pre-merge validations end at 11-Feb-15 02:09</br>
+</br>
+*** Overall Validation Status - Warning ***</br>
+</br>
+If you want to log a bug against the Pre-merge tool, please click <a href="https://bug.oraclecorp.com/pls/bug/webbug_create.enter_info?product_suite_id=&product_suite_id_desc=&product_id=&product_id_desc=&comp=&component_desc=&subcomponent=&subcomponent_desc=&bugno=12532440">https://bug.oraclecorp.com/pls/bug/webbug_create.enter_info?product_suite_id=&product_suite_id_desc=&product_id=&product_id_desc=&comp=&component_desc=&subcomponent=&subcomponent_desc=&bugno=12532440<a></br>
+</br>
+</br>
+Reports of successful validations uploaded to :</br>
+<a href="https://bugsftp.us.oracle.com/bug/faces/BugUploadMain.jspx?bug=20517102">https://bugsftp.us.oracle.com/bug/faces/BugUploadMain.jspx?bug=20517102<a></br>
+Bug update elapsed time: 00:00:27</br>
+Validations completed.</br>
+Validation output files sshli_rfi_backport_20511001_11.1.9.2.0.txt* are available at /ade/sshli_r9rr92/fusionapps/premerge</br>
+  </div>
+  <script language="JavaScript">function ShowHide(divId){if(document.getElementById(divId).style.display == 'none'){document.getElementById(divId).style.display='block';}else{document.getElementById(divId).style.display = 'none';}}</script>
+  </td>
+ </tr>
+</table>
+ 
+<p class=MsoNormal><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+ 
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;width:100%'>
+ <tr>
+  <td valign=top style='border:solid black 1.0pt;
+  background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><tt><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:black;background:orange'>BUG Validation Run Summary : (
+  Bug Validation Status: WARNING )</span></b></tt></p>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><tt><b><span style='font-size:10.0pt;
+  font-family:"Arial","sans-serif";color:#000000'>&nbsp;</span></b></tt></p>
+  <a onclick ="javascript:ShowHide('HiddenDiv2')" href="javascript:;" ><center>Show/Hide</center></a>
+  <div class="mid" id="HiddenDiv2" style="DISPLAY: none;color: #000000; font: Helvetica 12pt;border: 1px solid black;" >
+Bug validator version info...</br>
+Script: 20140626</br>
+PL/SQL: 20150108</br>
+Please review the wiki page at https://confluence.oraclecorp.com/confluence/x/6A3O for more information on this utility</br>
+</br>
+</br>
+Checking environment setup...</br>
+Getting transaction details from ADE...</br>
+Connecting to DB to perform validation...</br>
+Bug hierarchy information:</br>
+==========================</br>
+20511001 NOTIFICATION NOT GETTING TRIGGERED TO ALTERNATE MANAGER</br>
+FixBy:11.1.11.0.0 FixVerson: 11.1.11.0.0 CompVer: 11.1.11.0.0</br>
+FixETA: 13-FEB-2015 Status: 37 G/P: G</br>
+|</br>
+|- 20517091 R10: NOTIFICATION NOT GETTING TRIGGERED TO ALTERNATE MANAGER</br>
+|-          FixBy:11.1.10.0.0 FixVerson:  CompVer: 11.1.10.0.0</br>
+|-          FixETA: 27-FEB-2015 Status: 11 G/P: G</br>
+|</br>
+|- 20517102 R9: NOTIFICATION NOT GETTING TRIGGERED TO ALTERNATE MANAGER</br>
+|-          FixBy:11.1.9.2.0 FixVerson:  CompVer: 11.1.9.2.0</br>
+|-          FixETA: 27-FEB-2015 Status: 11 G/P: I</br>
+|</br>
+|- 20470651 NOTIFICATION NOT GETTING TRIGGERED TO ALTERNATE MANAGER</br>
+|-          FixBy: FixVerson:  CompVer: 11.1.8.0.0</br>
+|-          FixETA:  Status: 11 G/P: G</br>
+</br>
+Validation information for 20517102(FUSIONAPPS_11.1.9.2.0HCM_LINUX.X64)</br>
+==========================================</br>
+No validation errors found for bug.</br>
+</br>
+Validating linked bugs for 20517102</br>
+===================================</br>
+FUSIONAPPS_PT.11.1.10REHCM_LINUX.X64(11.1.10.0.0): Bug 20517091, Base 20511001</br>
+===================================================================</br>
+The linked bug has either not had a txn merged or its been merged</br>
+to a different series. (WARNING)</br>
+Expected a txn for series R10HCMPREARU</br>
+</br>
+FUSIONAPPS_PT.DEVHCM_LINUX.X64(11.1.11.0.0): Bug 20511001, Base</br>
+==============================================================</br>
+The linked bug has either not had a txn merged or its been merged</br>
+to a different series. (WARNING)</br>
+Expected a txn for series DEVHCM</br>
+</br>
+</br>
+Bug Validation Status: WARNING</br>
+</br>
+  </div>
+  <script language="JavaScript">function ShowHide(divId){if(document.getElementById(divId).style.display == 'none'){document.getElementById(divId).style.display='block';}else{document.getElementById(divId).style.display = 'none';}}</script>
+  </td>
+ </tr>
+</table>
+ 
+
+<p class=MsoNormal>&nbsp;</p>
+ 
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=100% 
+ style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt: 
+ 0in 0in 0in 0in'> 
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'> 
+  <td valign=top style='border:solid black 1.0pt;background:silver;padding: 
+  0in 5.4pt 0in 5.4pt'> 
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><tt><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";background:green;color:black'>ARU Transaction Content Validation and Analysis : SUCCESS
+  </span></b></tt></p>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><tt><b><span style='font-size:10.0pt;
+  font-family:"Arial","sans-serif";color:#000000'>&nbsp;</span></b></tt></p>
+  <a onclick ="javascript:ShowHide('HiddenDiv6')" href="javascript:;" ><center>Show/Hide</center></a>
+  <div class="mid" id="HiddenDiv6" style="DISPLAY: none;color: #000000; font: Helvetica 12pt;border: 1px solid black;" >
+You can obtain further information on any errors and warnings reported below from the HCM Release/Operations wiki page - https://confluence.oraclecorp.com/confluence/x/lW3BAQ</br>
+</br>
+Results of transaction definition validation.</br>
+=============================================</br>
+</br>
+No errors/warnings reported.</br>
+</br>
+Results of transaction content analysis.</br>
+=============================================</br>
+</br>
+No errors/warnings reported.</br>
+</br>
+</br>
+Overall status: Success</br>
+  </div>
+  <script language="JavaScript">function ShowHide(divId){if(document.getElementById(divId).style.display == 'none'){document.getElementById(divId).style.display='block';}else{document.getElementById(divId).style.display = 'none';}}</script>
+</td></tr></table> 
+
+<p class=MsoNormal>&nbsp;</p>
+ 
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;width:100%'>
+ <tr>
+  <td valign=top style='border:solid black 1.0pt;
+  background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><tt><b><span style='font-size:12.0pt;
+ <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align:
+  center'><tt><b><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:Arial,sans-serif;color:black;background:green'>FPR RUN BY PMC[PSEUDO CHECK ENABLED]
+ : SUBMITTED</span></b></tt></p>
+ <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align:
+ center'><tt><b><span style='font-size:10.0pt;font-family:Arial,sans-serif;
+ color:black'>&nbsp;</span></b></tt> FPR JOB ID : <a
+ href=http://fre.us.oracle.com:7777/cgi-bin/fprScheduler?scope=env&req=job&sid=&jobid=1531513>http://fre.us.oracle.com:7777/cgi-bin/fprScheduler?scope=env&req=job&sid=&jobid=1531513</a></p>
+ </br>
+ <p class=MsoNormal align=center style='mso-margin-top-alt:auto'><b>&nbsp;</b><tt><b><span
+style='font-size:10.0pt'></span></b></tt><tt><span style='font-size:
+10.0pt;font-family:Calibri,sans-serif;mso-ascii-theme-font:minor-latin;
+  mso-hansi-theme-font:minor-latin;color:black;mso-themecolor:text1;mso-bidi-font-weight:
+  bold'>FPR Job is submitted for the transaction by PMC. Please validate and see if all files are processed  and then only raise the mergereq for same.</span></tt></p>
+ <p class=MsoNormal align=center style='mso-margin-top-alt:auto'><b>&nbsp;</b><tt><b><span
+style='font-size:10.0pt'></span></b></tt><tt><span style='font-size:
+10.0pt;font-family:Calibri,sans-serif;mso-ascii-theme-font:minor-latin;
+  mso-hansi-theme-font:minor-latin;color:black;mso-themecolor:text1;mso-bidi-font-weight:
+  bold'>Premerge checker FPR Run is invoked with option &#34;-DPerformPseudoTranslation=1&#34; to perform Pseudo Translation.</span></tt></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-family:"Arial","sans-serif";color: #000000'>&nbsp;</span></b></p>
+  <a onclick ="javascript:ShowHide('HiddenDiv3')" href="javascript:;" ><center>Show/Hide</center></a>
+  <div class="mid" id="HiddenDiv3" style="DISPLAY: none;color: #000000; font: Helvetica 12pt;border: 1px solid black;">
+FA_PREMERGE_DB Branch property set to: r92arufpr2</br>
+adeViewRoot:/ade/sshli_r9rr92</br>
+Transaction: sshli_rfi_backport_20511001_11.1.9.2.0</br>
+View label: FUSIONAPPS_11.1.9.2.0HCM_LINUX.X64_150210.1430.S</br>
+Creating Patching manifest:</br>
+fpr -e r92arufpr2 -s sshli_rfi_backport_20511001_11.1.9.2.0 -m /tmp/patchingManifest.txt -r createmanifest -f F_PREMERGE</br>
+ComPath: /ade/sshli_r9rr92/fusionapps/com/acr/db/sql</br>
+Creating symlink...</br>
+Invoking seed data patching framework:</br>
+fpr -e r92arufpr2 -s sshli_rfi_backport_20511001_11.1.9.2.0 -p V_CONT_EQUIV=NO -o O_PREMERGE -f F_PREMERGE -m /tmp/patchingManifest.txt</br>
+Patch job id is: 1531513</br>
+</br>
+You can go to http://fre.us.oracle.com:7777/cgi-bin/fprScheduler?scope=env&req=job&sid=r92arufpr2&jobid=1531513 to view the full patch details.</br>
+</br>
+You can also go to http://fre.us.oracle.com:7777/cgi-bin/fprScheduler?scope=env&req=queue&sid=r92arufpr2 to view the environment details.</br>
+Review the KIX for more details about seed framework integration with premerge:http://globaldc.oracle.com/perl/twiki/view/FusionSharedTools/SeedframeworkInPremerge</br>
+Job status is:  UNKNOWN</br>
+Job status is:  UNKNOWN</br>
+Job status is:  UNKNOWN</br>
+Final Job status is:  PASSED</br>
+</br>
+Patching completed successfuly. See the detailed status in job_status.txt</br>
+  </div>
+  <script language="JavaScript">function ShowHide(divId){if(document.getElementById(divId).style.display == 'none'){document.getElementById(divId).style.display='block';}else{document.getElementById(divId).style.display = 'none';}}</script>
+  </td>
+ </tr>
+</table>
+ 
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+ 
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;width:100%'>
+ <tr>
+  <td valign=top style='border:solid black 1.0pt;
+  background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><tt><b><span style='font-size:12.0pt;
+ <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align:
+  center'><tt><b><span style='mso-ansi-font-size:12.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:Arial,sans-serif;color:black;background:green'>FPR RUN[CDRM DB] 
+ : SUBMITTED</span></b></tt></p>
+ <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align:
+ center'><tt><b><span style='font-size:10.0pt;font-family:Arial,sans-serif;
+ color:black'>&nbsp;</span></b></tt> FPR JOB ID : <a
+ href=http://fre.us.oracle.com:7777/cgi-bin/fprScheduler?scope=env&req=job&sid=r92arufpr2&jobid=1535962>http://fre.us.oracle.com:7777/cgi-bin/fprScheduler?scope=env&req=job&sid=r92arufpr2&jobid=1535962</a></p>
+ </br>
+ <p class=MsoNormal align=center style='mso-margin-top-alt:auto'><b>&nbsp;</b><tt><b><span
+style='font-size:10.0pt'></span></b></tt><tt><span style='font-size:
+10.0pt;font-family:Calibri,sans-serif;mso-ascii-theme-font:minor-latin;
+  mso-hansi-theme-font:minor-latin;color:black;mso-themecolor:text1;mso-bidi-font-weight:
+  bold'>FPR Job is submitted for the transaction by PMC Wrapper . Please validate and see if all files are processed  and then only raise the mergereq for same.</span></tt></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-family:"Arial","sans-serif";color: #000000'>&nbsp;</span></b></p>
+  <a onclick ="javascript:ShowHide('HiddenDiv10')" href="javascript:;" ><center>Show/Hide</center></a>
+  <div class="mid" id="HiddenDiv10" style="DISPLAY: none;color: #000000; font: Helvetica 12pt;border: 1px solid black;">
+[Feb/11-18:18:11] Parsing Command Line Options</br>
+[Feb/11-18:18:11] Reading Environment Configuration</br>
+[Feb/11-18:18:12] Validating the Requested Destination Environment</br>
+[Feb/11-18:18:12] Loading taxonomy information</br>
+[Feb/11-18:18:16] Establishing Requested Set of Files</br>
+[Feb/11-18:18:17] INFO: Source identified as [currenttransaction]</br>
+[Feb/11-18:18:17] Running Requested Filters on Set of Files</br>
+[Feb/11-18:18:39] INFO: V_LOC_PILLAR          - SKIPPED</br>
+[Feb/11-18:18:39] INFO: V_MANIFEST            - no manifest -SKIPPED</br>
+[Feb/11-18:18:39] INFO: V_LOC_FUSIONAPPS      - In:[      2] Out:[      2]</br>
+[Feb/11-18:18:39] INFO: V_XLF_LANGUAGE        - In:[      2] Out:[      2]</br>
+[Feb/11-18:18:39] INFO: V_FILETYPES           - In:[      2] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_LOC_SKIP_NOSHIP     - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_XML_NAME_SD         - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_OWNER_FAMILY        - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_OWNER_PRODUCT_FOUND - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_OWNER_PRODUCT       - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_LOC_SKIP_AUTOAPPLY  - SKIPPED</br>
+[Feb/11-18:18:39] INFO: V_FILETYPES_NOSHIP    - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_FILENAME_LENGTH     - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_APPROVED_AUTOAPPLY  - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_PKG_TEST_ONLY       - SKIPPED</br>
+[Feb/11-18:18:39] INFO: V_PKG_LOC             - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_PKG_LOC_TEST        - SKIPPED</br>
+[Feb/11-18:18:39] INFO: V_SQL_LOC_NOSHIP      - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: V_XML_LOC_SD          - In:[      1] Out:[      1]</br>
+[Feb/11-18:18:39] INFO: Total files available to patch - 1</br>
+[Feb/11-18:18:39] Creating Filelist for the Patchable files</br>
+[Feb/11-18:18:39] Bundling Patchable Files</br>
+[Feb/11-18:18:39] Requesting Patch ID from fprScheduler</br>
+[Feb/11-18:18:40] INFO: Patch ID allocated as [1535962]</br>
+[Feb/11-18:18:40][1m[34mSTATE: FPR_COMMAND_ARGS: text=[fpr ran with arguments [source=currenttransaction requestmode=APPLYFILES envsid=r92arufpr2 fprrunmode=LIVE profileoverride=V_CONT_EQUIV=NO pillar=fusionapps optionsprofile=DEFAULT filterprofile=DEFAULT]]</br>
+[0m[Feb/11-18:18:40] Delivering Bundle to Destination Environment</br>
+[Feb/11-18:18:41] Adding Patch Request to fprScheduler</br>
+  </div>
+  <script language="JavaScript">function ShowHide(divId){if(document.getElementById(divId).style.display == 'none'){document.getElementById(divId).style.display='block';}else{document.getElementById(divId).style.display = 'none';}}</script>
+  </td>
+ </tr>
+</table>
+ 
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+ 
+         <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+         style='border-collapse:collapse;border:none;width:100%'>
+         <tr>
+          <td  valign=top style='border:solid black 1.0pt;
+          border-bottom:none;background:black;padding:0in 5.4pt 0in 5.4pt'>
+          <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+          text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+          font-family:"Arial","sans-serif";color:white'>BUG Property Checks</span></b></p>
+          </td>
+         </tr>
+                  <tr>
+          <td valign=top style='border-top:none;border-left:
+          solid #4F81BD 1.0pt;border-bottom:none;border-right:solid black 1.0pt;
+          background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+
+
+        <br>
+          <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+          normal'><tt><b><span style='font-size:10.0pt'>Tracking Group &#34;Customer Bug Product Analysis&#34; is &#34;NA&#34; for this BUG
+          </span></b></tt></p>
+          
+            <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+          normal'><tt><b><span style='font-size:10.0pt'>
+          </span></b></tt></p>
+        <br>
+          
+          </td>
+         </tr>
+         <tr>
+          <td valign=top style='border:solid black 1.0pt;
+          background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+        
+        <br>
+          <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+          normal'><tt><b><span style='font-size:10.0pt'>ADE Property &#34;README_BUGFIX_FUNCT_DESC&#34; is &#34;SET&#34; for this Transaction
+         </span></b></tt></p>
+<p class=MsoNormal>&nbsp;</p>
+
+         <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+          normal'><tt><b><span style='font-size:10.0pt'>  README_BUGFIX_FUNCT_DESC    : withdraw notification does not send to alternate manager, but send to original manager. Resolution: check alternative manager before send notification 
+          </span></b></tt></p>
+        <br>
+          
+           
+
+          </td>
+         </tr>
+           
+         <tr>
+          <td valign=top style='border:solid black 1.0pt;
+          background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+        
+        <br>
+          <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+          normal'><tt><b><span style='font-size:10.0pt'>BugSmart template &#34;Fusion HCM Dev Bug Closure Template&#34 is &#34;APPLIED&#34; to the BUG
+         </span></b></tt></p>
+        <br>
+
+           
+
+          </td>
+         </tr>
+        </table>
+
+<p class=MsoNormal>&nbsp;</p>
+ 
+         <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+         style='border-collapse:collapse;border:none;width:100%'>
+         <tr>
+          <td  valign=top style='border:solid black 1.0pt;
+          background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+          <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+          text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+          font-family:"Arial","sans-serif";color:black;background:green'>BUG TAG CHECK : SUCCESS </span></b></p>
+          </td>
+         </tr>
+          <tr>
+          <td valign=top style='border:solid black 1.0pt;
+          background:#C0C0C0;padding:0in 5.4pt 0in 5.4pt'>
+          <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+          normal'><tt><b><span style='font-size:10.0pt;color:black'>Required TAGS &#34; REL9PATCH r9-pb3-hcm&#34; for &#34;FUSIONAPPS_11.1.9.2.0HCM_LINUX.X64&#34; Found
+          </span></b></tt></p>
+ <br>
+          <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+          normal'><tt><b><span style='font-size:10.0pt;color:black'>Required tags for customer field value INTERNAL found in the BUG &#34;customer_impact&#34;
+          </span></b></tt></p>
+ <br>
+          <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+          normal'><tt><b><span style='font-size:10.0pt;color:black'>TAGS in the BUG : customer_impact
+r9-pb3-hcm
+REL9PATCH
+          </span></b></tt></p>
+          </td>
+         </tr>
+        </table>
+
+<p class=MsoNormal>&nbsp;</p>
+ 
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=100% 
+ style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt: 
+ 0in 0in 0in 0in'> 
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'> 
+  <td valign=top style='border:solid black 1.0pt;background:silver;padding: 
+  0in 5.4pt 0in 5.4pt'> 
+  <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align: 
+  center'><tt><b><span style='mso-ansi-font-size:14.0pt;mso-bidi-font-size: 
+  14.0pt;font-family:Arial,sans-serif;color:black;background:orange'>ARU ANT 
+  PATCH : SUBMITTED</span></b></tt></p> 
+  <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align: 
+  center'><tt><b><span style='font-size:10.0pt;font-family:Arial,sans-serif; 
+  color:black'>&nbsp;</span></b></tt> PMC Wrapper has submitted the ARU ant patch 
+  command for your <span class=SpellE><span class=GramE>trasaction</span></span><span 
+  class=GramE> .</span> Please verify and upload the log &#34;/ade/sshli_r9rr92/PMC_WRAPPER/AruAntPatchOutput_021115015509.txt&#34; manually to bug for 
+  getting your <span class=SpellE>mergereq</span> approved. </p> 
+ <p class=MsoNormal><b><span style='font-size:13.0pt;line-height:115%;color:red'>Also run &#34;/net/adc00lau/scratch/hcmrel/bin/snowball_checker/ReportSnowballPayload.sh sshli_rfi_backport_20511001_11.1.9.2.0 &#34; command for your transaction after ANT patch execution</span></b>. <tt><b><span style='font-size:10.0pt;line-height:115%;font-family:Arial,sans-serif; color:black'>&nbsp;</span></b></tt> This creates the file &#34;ReportSnowballPayload_20517102.log&#34; listing the DOs which will be present in the patch that results from your transaction. This file must be reviewed to ensure that your transaction will not cause inappropriate snowballing if it is merged in its current state.The log file gets uploaded to the bug automatically for <span class=spelle>mergereq</span>
+approval.</p> 
+  <p class=MsoNormal align=center style='mso-margin-top-alt:auto;text-align: 
+  center'><span style='font-size:10.0pt;font-family:Calibri,sans-serif; 
+  mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family: 
+  Arial;color:black;mso-themecolor:text1;mso-bidi-font-weight:bold'>Refer this 
+  page -</span><span style='font-size:10.0pt;font-family:Calibri,sans-serif; 
+  mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;color:black; 
+  mso-themecolor:text1'><a 
+  href="https://confluence.oraclecorp.com/confluence/display/HCMexternal/Merge+Approval+-+Checks"><span 
+  style='color:black;mso-themecolor:text1'>Merge Approval - Checks</span></a> 
+  or Contact HCMREL for more information..</span><span style='mso-fareast-font-family: 
+  Times New Roman'><o:p></o:p></span></p> 
+</td></tr></table> 
+
+<p class=MsoNormal>&nbsp;</p>
+ 
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+  {font-family:Wingdings;
+  panose-1:5 0 0 0 0 0 0 0 0 0;
+  mso-font-charset:2;
+  mso-generic-font-family:auto;
+  mso-font-pitch:variable;
+  mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+  {font-family:Cambria Math;
+  panose-1:2 4 5 3 5 4 6 3 2 4;
+  mso-font-charset:0;
+  mso-generic-font-family:roman;
+  mso-font-pitch:variable;
+  mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+  {font-family:Calibri;
+  panose-1:2 15 5 2 2 2 4 3 2 4;
+  mso-font-charset:0;
+  mso-generic-font-family:swiss;
+  mso-font-pitch:variable;
+  mso-font-signature:-536870145 1073786111 1 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+  {mso-style-unhide:no;
+  mso-style-qformat:yes;
+  mso-style-parent:;
+  margin-top:0in;
+  margin-right:0in;
+  margin-bottom:10.0pt;
+  margin-left:0in;
+  line-height:115%;
+  mso-pagination:widow-orphan;
+  font-size:11.0pt;
+  font-family:Calibri,sans-serif;
+  mso-fareast-font-family:Calibri;
+  mso-bidi-font-family:Times New Roman;}
+a:link, span.MsoHyperlink
+  {mso-style-priority:99;
+  color:blue;
+  text-decoration:underline;
+  text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+  {mso-style-noshow:yes;
+  mso-style-priority:99;
+  color:purple;
+  mso-themecolor:followedhyperlink;
+  text-decoration:underline;
+  text-underline:single;}
+tt
+  {mso-style-noshow:yes;
+  mso-style-priority:99;
+  font-family:Courier New;
+  mso-ascii-font-family:Courier New;
+  mso-fareast-font-family:Times New Roman;
+  mso-hansi-font-family:Courier New;
+  mso-bidi-font-family:Courier New;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+  {mso-style-priority:34;
+  mso-style-unhide:no;
+  mso-style-qformat:yes;
+  margin-top:0in;
+  margin-right:0in;
+  margin-bottom:10.0pt;
+  margin-left:.5in;
+  mso-add-space:auto;
+  line-height:115%;
+  mso-pagination:widow-orphan;
+  font-size:11.0pt;
+  font-family:Calibri,sans-serif;
+  mso-fareast-font-family:Calibri;
+  mso-bidi-font-family:Times New Roman;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+  {mso-style-priority:34;
+  mso-style-unhide:no;
+  mso-style-qformat:yes;
+  mso-style-type:export-only;
+  margin-top:0in;
+  margin-right:0in;
+  margin-bottom:0in;
+  margin-left:.5in;
+  margin-bottom:.0001pt;
+  mso-add-space:auto;
+  line-height:115%;
+  mso-pagination:widow-orphan;
+  font-size:11.0pt;
+  font-family:Calibri,sans-serif;
+  mso-fareast-font-family:Calibri;
+  mso-bidi-font-family:Times New Roman;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+  {mso-style-priority:34;
+  mso-style-unhide:no;
+  mso-style-qformat:yes;
+  mso-style-type:export-only;
+  margin-top:0in;
+  margin-right:0in;
+  margin-bottom:0in;
+  margin-left:.5in;
+  margin-bottom:.0001pt;
+  mso-add-space:auto;
+  line-height:115%;
+  mso-pagination:widow-orphan;
+  font-size:11.0pt;
+  font-family:Calibri,sans-serif;
+  mso-fareast-font-family:Calibri;
+  mso-bidi-font-family:Times New Roman;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+  {mso-style-priority:34;
+  mso-style-unhide:no;
+  mso-style-qformat:yes;
+  mso-style-type:export-only;
+  margin-top:0in;
+  margin-right:0in;
+  margin-bottom:10.0pt;
+  margin-left:.5in;
+  mso-add-space:auto;
+  line-height:115%;
+  mso-pagination:widow-orphan;
+  font-size:11.0pt;
+  font-family:Calibri,sans-serif;
+  mso-fareast-font-family:Calibri;
+  mso-bidi-font-family:Times New Roman;}
+span.SpellE
+  {mso-style-name:;
+  mso-spl-e:yes;}
+span.GramE
+  {mso-style-name:;
+  mso-gram-e:yes;}
+.MsoChpDefault
+  {mso-style-type:export-only;
+  mso-default-props:yes;
+  font-size:10.0pt;
+  mso-ansi-font-size:10.0pt;
+  mso-bidi-font-size:10.0pt;
+  mso-ascii-font-family:Calibri;
+  mso-fareast-font-family:Calibri;
+  mso-hansi-font-family:Calibri;}
+@page WordSection1
+  {size:8.5in 11.0in;
+  margin:1.0in 1.0in 1.0in 1.0in;
+  mso-header-margin:.5in;
+  mso-footer-margin:.5in;
+  mso-paper-source:0;}
+div.WordSection1
+  {page:WordSection1;}
+ /* List Definitions */
+ @list l0
+  {mso-list-id:520972347;
+  mso-list-type:hybrid;
+  mso-list-template-ids:-446379130 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l1
+  {mso-list-id:814182483;
+  mso-list-type:hybrid;
+  mso-list-template-ids:-271306848 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l2
+  {mso-list-id:1043603825;
+  mso-list-type:hybrid;
+  mso-list-template-ids:621577736 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:53.6pt;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l3
+  {mso-list-id:1186021740;
+  mso-list-type:hybrid;
+  mso-list-template-ids:1556122674 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l4
+  {mso-list-id:1447970705;
+  mso-list-type:hybrid;
+  mso-list-template-ids:-743008392 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:37.65pt;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l5
+  {mso-list-id:1642224790;
+  mso-list-type:hybrid;
+  mso-list-template-ids:1047427100 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  margin-left:1.0in;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l6
+  {mso-list-id:1755317082;
+  mso-list-type:hybrid;
+  mso-list-template-ids:973349606 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:none;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  font-family:Symbol;}
+@list l7
+  {mso-list-id:2085293896;
+  mso-list-template-ids:1313615650;}
+@list l7:level1
+  {mso-level-number-format:bullet;
+  mso-level-text:\F0B7;
+  mso-level-tab-stop:.5in;
+  mso-level-number-position:left;
+  text-indent:-.25in;
+  mso-ansi-font-size:10.0pt;
+  font-family:Symbol;}
+ol
+  {margin-bottom:0in;}
+ul
+  {margin-bottom:0in;}
+-->
+
+</style>
+
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;width:100%'>
+ <tr>
+  <td  valign=top style='border:solid black 1.0pt;
+  border-bottom:none;background:black;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:white'>Developer Next Steps</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border-top:none;border-left:solid black 1.0pt;
+  border-bottom:none;border-right:solid #4F81BD 1.0pt;background:#A6A6A6;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:12.0pt'>Please review the PMC Wrapper  output
+  and suggestions carefully and justify the Warnings and failures (if any) on
+  the bug , before raising the mergereq</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid black 1.0pt;background:silver;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><tt><b><span style='font-size:10.0pt'>JPR/JWS- No <br> </span></b></tt></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b>&nbsp;</b></p>
+ </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid black 1.0pt;background:silver;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><tt><b><span style='font-size:10.0pt'>Jazn- No <br> </span></b></tt></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b>&nbsp;</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid black 1.0pt;border-top:none;background:
+  silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><tt><b><span style='font-size:10.0pt'>DB- Yes
+ <br>
+fusionapps/hcm/cmp/db/plsql/cmp_cwb_audit_pkg.pkb</br>
+</span></b></tt></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b>&nbsp;</b></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom:
+  .0001pt;text-indent:-.25in;line-height:normal'><span style='font-size:12.0pt;
+  font-family:Symbol'>.<span style='font:7.0pt Times New Roman'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:12.0pt'>For transaction having the DB
+  artifacts, PMC Wrapper submits fpr job. Please verify the job and raise
+  mergereq which has a clean run [For all files in transaction].</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-bottom:0in;margin-bottom:
+  .0001pt;text-indent:-.25in;line-height:normal'><span style='font-size:12.0pt;
+  font-family:Symbol'>.<span style='font:7.0pt Times New Roman'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:12.0pt'>In case that fails : - please
+  resubmit manually and upload result.(you can use<b></b></span><b><span
+  style='font-size:12.0pt'>&quot;-p V_CONT_EQUIV=NO V_FILETYPES=mview,mviewlog,pkb,pkh,policy,sequence,sql,synonym,table,trigger,view,xml,xlf&quot;</span></b><span
+  style='font-size:12.0pt'> to apply all forcibly, if applicable )</span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:12.0pt'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid black 1.0pt;border-top:none;background:
+  silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><tt><b><span style='font-size:10.0pt'>Noship- No <br> </span></b></tt></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b>&nbsp;</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid black 1.0pt;border-top:none;background:
+  silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><tt><b><span style='font-size:10.0pt'>CentralFiles- No <br> </span></b></tt></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b>&nbsp;</b></p>
+  </td>
+ </tr>
+<tr>
+<td valign=top style='border:solid black 1.0pt;background:silver;padding: 
+  0in 5.4pt 0in 5.4pt'> 
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height: 
+  normal'><tt><b><span style='font-size:10.0pt'>BUG Property Checks 
+ <br> 
+</span></b></tt></p> 
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height: 
+  normal'><b>&nbsp;</b></p> 
+  <p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom: 
+  .0001pt;text-indent:-.25in;line-height:normal'><span style='font-size:12.0pt; 
+  font-family:Symbol'>.<span style='font:7.0pt Times New Roman'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  </span></span><span style='font-size:12.0pt'>Verify that the Customer Bug Product Analysis tracking group is populated for CUSTOMER bugs (not INTERNAL) where the Bug Type Tracking Group  is Defect</span></p> 
+  <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom: 
+  .0001pt;text-indent:-.25in;line-height:normal'><span style='font-size:12.0pt; 
+  font-family:Symbol'>.<span style='font:7.0pt Times New Roman'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  </span></span><span style='font-size:12.0pt'>Verify that the ADE property README_BUGFIX_FUNCT_DESC has been set if the Bug Type Tracking Group is Backport. And the Priority is  1, or Priority is 2.</span><a 
+  href="https://confluence.oraclecorp.com/confluence/display/FATPM/Bundle+Patch+functional+readmes%3A+Overview%2C+TOI+and+Status#BundlePatchfunctionalreadmes:Overview,TOIandStatus-functionaldescription" 
+  target=_blank><span style='font-size:12.0pt'> Reference link </span></a></p> 
+  <p class=MsoListParagraphCxSpLast style='margin-bottom:0in;margin-bottom: 
+  .0001pt;text-indent:-.25in;line-height:normal'><span style='font-size:12.0pt; 
+  font-family:Symbol'>.<span style='font:7.0pt Times New Roman'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  </span></span><span style='font-size:12.0pt'>Verify BugSmart template 'Fusion HCM Dev Bug Closure Template' has been applied to the bug .</span></p> 
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height: 
+  normal'><b><span style='font-size:12.0pt'>&nbsp;</span></b></p> 
+  </td> 
+ </tr>
+<tr>
+<td valign=top style='border:solid black 1.0pt;background:silver;padding: 
+  0in 5.4pt 0in 5.4pt'> 
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height: 
+  normal'><b>&nbsp;</b></p> 
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height: 
+  normal'><tt><b><span style='font-size:10.0pt'>If PMC fails to submit FPR for Pseudo translated check or Pseudo translation testing results in a warning due to timeout, try below options 
+ <br> 
+</span></b></tt></p> 
+  <p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom: 
+  .0001pt;text-indent:-.25in;line-height:normal'><span style='font-size:12.0pt; 
+  font-family:Symbol'>.<span style='font:7.0pt Times New Roman'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  </span></span><span style='font-size:12.0pt'> Please re run PMC Wrapper again &#91;most desired option&#93; and see if the pseudo translation check is clear</span></p> 
+  <p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom: 
+  .0001pt;text-indent:-.25in;line-height:normal'><span style='font-size:12.0pt; 
+  font-family:Symbol'>.<span style='font:7.0pt Times New Roman'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  </span></span><span style='font-size:12.0pt'> Please submit fpr manually&#91;Note this will not perform  Pseudo translation&#93;</span></p> 
+  </td> 
+ </tr>
+</table>
+
+
+</div>
+</body>
+</html>
