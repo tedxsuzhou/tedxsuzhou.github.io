@@ -107,7 +107,7 @@
 					itemSelector: '.isotope-item',
 					layoutMode: 'masonry',
 					transitionDuration: '0.6s',
-					filter: ".2015ptf",
+					filter: ".2015women",
                     onLayout: function() {
                         $(window).trigger("scroll");
                     }
