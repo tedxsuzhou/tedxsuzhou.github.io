@@ -1,4 +1,4 @@
-#  TEDxSuzhou 官网由 GDG Suzhou 维护
+#  [TEDxSuzhou](tedxsuzhou.com) 官网由 [GDG Suzhou](http://developers.dushu.hu/) 维护
 * * *
 ## TODO:
 
