@@ -5,6 +5,7 @@
   1、5月30日女性大会视频：ted小伙伴部分视频没有上传到youku
 * * *
 ## DONE:
+#### 讲师名字规则：中国讲师：中文＋英文，国外讲师：英文＋中文
 ### [预见未来大会视频：3月28日预见未来大会](http://www.youku.com/playlist_show/id_25835874.html)
 ####    新增4个talk：
         1. Future of Job by Brian Tam @TEDxSuzhou                id_XMTI2MDM1NTE5Mg
