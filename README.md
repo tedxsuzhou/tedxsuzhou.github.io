@@ -31,9 +31,9 @@
         2. 姑苏·雅乐坊 @TEDxSuzhouWomen                         id_XMTMwMDIwMjg2OA
         3. WOLF GANG JAZZ BAND @TEDxSuzhouWomen                id_XMTMwMDIwNjA3Mg
 ### [TEDxYouth@Suzhou 2014](http://www.youku.com/playlist_show/id_23726835.html)
-          [讲者资料](http://2014dna.eventdove.com/event/7306/page/21750)
-          [活动图集](https://www.flickr.com/photos/tedxsuzhou/)
-          [视频专辑](http://www.youku.com/playlist_show/id_23726835.html)
+[讲者资料](http://2014dna.eventdove.com/event/7306/page/21750)
+[活动图集](https://www.flickr.com/photos/tedxsuzhou/)
+[视频专辑](http://www.youku.com/playlist_show/id_23726835.html)
 ####    新增10个talk
         1. 社交网络－梦想实现之地：陈莽昆@TEDxYouth@Suzhou 2014    id_XOTQwMzQ1MTc2
         2. The Currency of Joy：缪素臻@TEDxYouth@Suzhou 2014      id_XOTQwMzU2OTY0
