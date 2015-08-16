@@ -2,8 +2,8 @@
 * * *
 ## TODO:
 
-  1、5月30日女性大会视频：ted小伙伴部分视频没有上传到youku
-  2、TODO:flickr木有全杏梅@TEDxYouth@Suzhou 2014照片
+  1. 5月30日女性大会视频：ted小伙伴部分视频没有上传到youku
+  2. TODO:flickr木有全杏梅@TEDxYouth@Suzhou 2014照片
 
 * * *
 ## DONE:
