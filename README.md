@@ -3,6 +3,8 @@
 ## TODO:
 
   1、5月30日女性大会视频：ted小伙伴部分视频没有上传到youku
+  2、TODO:flickr木有全杏梅@TEDxYouth@Suzhou 2014照片
+
 * * *
 ## DONE:
 #### 讲师名字规则：中国讲师：中文＋英文，国外讲师：英文＋中文
@@ -28,3 +30,7 @@
         1. 赵晓东 @TEDxSuzhouWomen                              id_XMTMwMzI5MDQ0NA
         2. 姑苏·雅乐坊 @TEDxSuzhouWomen                         id_XMTMwMDIwMjg2OA
         3. WOLF GANG JAZZ BAND @TEDxSuzhouWomen                id_XMTMwMDIwNjA3Mg
+### [TEDxYouth@Suzhou 2014](http://www.youku.com/playlist_show/id_23726835.html)
+          [讲者资料](http://2014dna.eventdove.com/event/7306/page/21750)
+          [活动图集](https://www.flickr.com/photos/tedxsuzhou/)
+          [视频专辑](http://www.youku.com/playlist_show/id_23726835.html)
