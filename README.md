@@ -1,13 +1,17 @@
 #  [TEDxSuzhou](tedxsuzhou.com) 官网由 [GDG Suzhou](http://developers.dushu.hu/) 维护
 * * *
+## 约定
+  1. 讲师名字规则：中国讲师：中文＋英文，国外讲师：英文＋中文
+  2. 图片缩略图规格：375*250，图片必须用photoshop的“另存为web格式”
 ## TODO:
-
-  1. 5月30日女性大会视频：ted小伙伴部分视频没有上传到youku
-  2. TODO:flickr木有全杏梅@TEDxYouth@Suzhou 2014照片
-
+  1. ~~5月30日女性大会视频：ted小伙伴部分视频没有上传到youku~~
+  2. ~~TODO:flickr木有全杏梅@TEDxYouth@Suzhou 2014照片~~
+  3. 统一名字
 * * *
+
 ## DONE:
-#### 讲师名字规则：中国讲师：中文＋英文，国外讲师：英文＋中文
+
+
 ### [预见未来大会视频：3月28日预见未来大会](http://www.youku.com/playlist_show/id_25835874.html)
 ####    新增4个talk：
         1. Future of Job by Brian Tam @TEDxSuzhou                id_XMTI2MDM1NTE5Mg
@@ -30,6 +34,13 @@
         1. 赵晓东 @TEDxSuzhouWomen                              id_XMTMwMzI5MDQ0NA
         2. 姑苏·雅乐坊 @TEDxSuzhouWomen                         id_XMTMwMDIwMjg2OA
         3. WOLF GANG JAZZ BAND @TEDxSuzhouWomen                id_XMTMwMDIwNjA3Mg
+
+####    新增剩余4个talks
+        1. 黄金时代 马荆棘 @TEDxSuzhouWomen   id_XMTMxMzE1MjQ2NA
+        2. My Mistakes, My Success; From Nothing to Something ...  id_XMTMxMzE0OTE2MA
+        3. The Power of the Mirror Fabiola@TEDxSuzhouWomen   id_XMTMxMjE4ODE1Mg
+        4. Starting Over Zoo@TEDxSuzhouWomen           id_XMTMxMjE5MTQ4MA
+
 ### [TEDxYouth@Suzhou 2014](http://www.youku.com/playlist_show/id_23726835.html)
 [讲者资料](http://2014dna.eventdove.com/event/7306/page/21750)
 [活动图集](https://www.flickr.com/photos/tedxsuzhou/)
