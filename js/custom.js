@@ -6,10 +6,10 @@
  * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
  * File Description: Place here your custom scripts
  */
-var get_time_difference = function () 
+var get_time_difference = function ()
 {
     var earlierDate = new Date();
-    var laterDate = new Date(2015, 9, 25, 9, 0, 0, 0);
+    var laterDate = new Date(2015, 10, 21, 13, 0, 0, 0);
     var oDiff = new Object();
 
     //  Calculate Differences

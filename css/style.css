@@ -9,7 +9,7 @@ File Description:Main CSS file of the template */
 /* Typography
 ----------------------------------------------------------------------------- */
 body {
-    font-family: "Helvetica Neue", Helvetica, "HelveticaNeue-Light", "Helvetica Neue Light", Arimo, Arial, "Lucida Grande", Avenir, 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif; 
+    font-family: "Helvetica Neue", Helvetica, "HelveticaNeue-Light", "Helvetica Neue Light", Arimo, Arial, "Lucida Grande", Avenir, 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
 }
 .site-name {
 	/*font-family: 'Raleway', sans-serif;*/
@@ -240,7 +240,7 @@ blockquote {
 	position: relative;
 }
 .bg-image-1 {
-    background: url("../images/talks/mindfulness/mindfulness.jpg") no-repeat center center;
+    background: url("../images/talks/2015ltu/banner.jpg") no-repeat center center;
     background-color: #222;
     -webkit-background-size: cover;
     -moz-background-size: cover;
