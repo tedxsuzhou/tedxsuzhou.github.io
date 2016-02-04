@@ -240,7 +240,7 @@ blockquote {
 	position: relative;
 }
 .bg-image-1 {
-    background: url("../images/talks/2015ltu/banner.jpg") no-repeat center center;
+    background: url("http://static.tedxsuzhou.com/images/talks/2015ltu/banner.jpg") no-repeat center center;
     background-color: #222;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -248,7 +248,7 @@ blockquote {
     -o-background-size: cover;
 }
 .bg-image-yuanlin {
-    background: url("../images/yuanlin.jpg") no-repeat center center;
+    background: url("http://static.tedxsuzhou.com/images/yuanlin.jpg") no-repeat center center;
     background-color: #222;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -256,7 +256,7 @@ blockquote {
     -o-background-size: cover;
 }
 .bg-image-2 {
-	background: url("../images/qiuku.jpg") 50% 0px no-repeat;
+	background: url("http://static.tedxsuzhou.com/images/qiuku.jpg") 50% 0px no-repeat;
     background-attachment: fixed;
     background-color: #222;
     -webkit-background-size: cover;
@@ -265,7 +265,7 @@ blockquote {
     -o-background-size: cover;
 }
 .bg-image-feel {
-	background: url("../images/tedxsuzhou_feel.jpg") 50% 0px no-repeat;
+	background: url("http://static.tedxsuzhou.com/images/tedxsuzhou_feel.jpg") 50% 0px no-repeat;
     background-attachment: fixed;
     background-color: #222;
     -webkit-background-size: cover;
