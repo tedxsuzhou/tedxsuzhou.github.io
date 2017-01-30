@@ -1,3 +1,6 @@
+This repo is outdated and deprecated. Moved to https://github.com/seekerlee/tedxsuzhou.com.
+
+
 #  [TEDxSuzhou](tedxsuzhou.com) 官网由 [GDG Suzhou](http://developers.dushu.hu/) 维护
 * * *
 ## 约定
